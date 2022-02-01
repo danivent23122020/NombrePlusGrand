@@ -16,12 +16,12 @@ const arrTest2 = [1, -15, 8, -3, 10];
 // console.log(plusGrandNb(arrTest));
 // attention : nombre le moins grand
 function toto(arr) {
-    let nbMax = 0;
+    let nbMin = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < nbMax) {
-            nbMax = arr[i];
+        if (arr[i] < nbMin) {
+            nbMin = arr[i];
         }
     }
-    return nbMax;
+    return nbMin;
 }
 console.log(toto(arrTest2));
