@@ -1,4 +1,4 @@
-const arrTest = [1, -15, 8, -3, 10];
+const arrTest2 = [1, -15, 8, -3, 10];
 
 // function plusGrandNb(arr) {
 //     //
@@ -6,7 +6,7 @@ const arrTest = [1, -15, 8, -3, 10];
 //     //
 //     for (i = 0; i < arr.length; i++) {
 //         //
-//         if (arr[i] > nbMax) {
+//         if (arr[i] < nbMax) {
 //             nbMax = arr[i];
 //         }
 //         //
@@ -17,10 +17,10 @@ const arrTest = [1, -15, 8, -3, 10];
 function toto(arr) {
     let nbMax = 0;
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > nbMax) {
+        if (arr[i] < nbMax) {
             nbMax = arr[i];
         }
     }
     return nbMax;
 }
-console.log(toto(arrTest));
+console.log(toto(arrTest2));
