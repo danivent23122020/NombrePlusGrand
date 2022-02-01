@@ -14,7 +14,7 @@ const arrTest2 = [1, -15, 8, -3, 10];
 //     return nbMax;
 // }
 // console.log(plusGrandNb(arrTest));
-// attention : nombre le moins grand
+// attention : nombre le moins Petit
 function toto(arr) {
     let nbMin = 0;
     for (let i = 0; i < arr.length; i++) {
